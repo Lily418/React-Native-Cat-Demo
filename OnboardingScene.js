@@ -11,7 +11,7 @@ export default class OnboardingScene extends Component {
         <View style={{flex: 1}}>
         <Button
         style={{flex: 1, fontSize: 24}}
-        onPress={() => {}}>
+        onPress={this.props.onPrimaryAction}>
           I want to find cats
         </Button>
         </View>
